@@ -1,4 +1,4 @@
-# 🖥️ Termux Debian X11 Workstation
+# 🖥️ Termux Debian Workstation
 
 > **Run a full Debian Linux desktop on Android — GPU-accelerated, audio-ready, no root required.**
 
@@ -181,5 +181,5 @@ It's okay, it might take a while.
 ---
 
 <p align="center">
-  <sub>Built for Android · Powered by proot-distro, Termux-X11, and VirGL</sub>
+  <sub>Built for Android</sub>
 </p>
