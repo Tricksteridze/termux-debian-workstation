@@ -3,7 +3,7 @@
 > **Run a full Debian Linux desktop on Android — GPU-accelerated, audio-ready, no root required.**
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Tricksteridze/termux-debian-x11/main/install.sh -o install.sh && chmod +x install.sh && bash install.sh
+curl -fsSL https://raw.githubusercontent.com/Tricksteridze/termux-debian-workstation/main/install.sh -o install.sh && chmod +x install.sh && bash install.sh
 ```
 
 ---
