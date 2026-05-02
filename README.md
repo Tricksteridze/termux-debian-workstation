@@ -3,7 +3,7 @@
 > **Run a full Debian Linux desktop on Android — GPU-accelerated, audio-ready, no root required.**
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Tricksteridze/termux-debian-x11/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/Tricksteridze/termux-debian-x11/main/install.sh -o install.sh && chmod +x install.sh && bash install.sh
 ```
 
 ---
@@ -100,7 +100,7 @@ adb shell "/system/bin/device_config put activity_manager max_phantom_processes 
 Once prerequisites are done, run this single command inside Termux:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Tricksteridze/termux-debian-x11/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/Tricksteridze/termux-debian-x11/main/install.sh -o install.sh && chmod +x install.sh && bash install.sh
 ```
 
 The script will:
