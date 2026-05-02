@@ -65,6 +65,7 @@ echo "[*] Starting Debian Workstation (Termux-X11)..."
 
 # Start Audio and Graphics Servers
 pulseaudio --start --exit-idle-time=-1
+sleep 3
 pacmd load-module module-native-protocol-tcp auth-ip-acl=127.0.0.1 auth-anonymous=1
 virgl_test_server_android &
 
