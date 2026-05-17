@@ -31,7 +31,7 @@ fi
 # 3. INTERNAL SYSTEM CONFIGURATION (Debian Side)
 echo "[*] Configuring internal Debian environment..."
 
-# Removed VNC, noVNC, and websockify to keep it lean
+# Installing packages
 DEBIAN_PACKAGES="xfce4 xfce4-terminal xwayland dbus-x11 firefox-esr python3 python3-pip nodejs build-essential sudo bash-completion thunar mousepad geany htop vlc mesa-utils"
 
 proot-distro login debian --shared-tmp -- bash -c "
